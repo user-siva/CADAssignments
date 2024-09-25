@@ -1,0 +1,19 @@
+
+Name : BookWorm
+
+Duration : 3hrs
+
+Technology : Console Based Application - Java
+
+Use Cases
+
+1. Add Books
+2. Search Books by ID
+3. Search Books by ISBN
+4. List Books
+
+5. Create Members
+6. Search Member by ID
+
+7. Borrow Book
+8. Return Book

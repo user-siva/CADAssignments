@@ -1,0 +1,17 @@
+
+Name : CMS
+
+Duration : 3hrs
+
+Technology : Console Based Application - Java
+
+Use Cases:
+
+1. Add Course
+2. View Course
+
+3. Add Faculty
+4. View Faculty
+
+5. Add Student
+6. View Students
