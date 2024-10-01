@@ -28,7 +28,6 @@ public class MovieListView {
                 System.out.println((i + 1) + ". " + movie.getTitle() + " (" + movie.getGenre() + ")");
             }
         }
-        System.out.println("0. Back to Main Menu");
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Choose a movie to view details (or 0 to go back): ");
@@ -38,8 +37,6 @@ public class MovieListView {
             Movie selectedMovie = availableMovies.get(choice - 1);
             TheatreListView theatreListView = new TheatreListView(selectedMovie);
             theatreListView.onCreate();
-        } else if (choice == 0) {
-            ShowTime.getInstance().onCreate();
         } else {
             System.out.println("Invalid choice. Please try again.");
             showAvailableMovies(availableMovies);
